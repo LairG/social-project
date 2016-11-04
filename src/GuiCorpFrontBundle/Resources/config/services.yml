@@ -1,0 +1,4 @@
+services:
+#    gui_corp_front.example:
+#        class: GuiCorpFrontBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+=======
+gui_corp_front:
+    resource: "@GuiCorpFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
