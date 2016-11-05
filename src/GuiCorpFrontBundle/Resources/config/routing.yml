@@ -1,3 +1,7 @@
 gui_corp_front_homepage:
     path:     /
     defaults: { _controller: GuiCorpFrontBundle:Static:homepage }
+    
+gui_corp_front_about:
+    path:     /about
+    defaults: { _controller: GuiCorpFrontBundle:Static:about }

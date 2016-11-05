@@ -14,4 +14,8 @@ class StaticController extends Controller
                array('name' => $name)
                );
     }
+    
+    public function aboutAction() {
+        return $this->render('GuiCorpFrontBundle:Static:about.html.twig');
+    }
 }
