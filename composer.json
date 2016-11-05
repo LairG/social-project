@@ -1,4 +1,25 @@
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "name": "lair/social.project",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "classmap": [
+            "app/AppKernel.php",
+            "app/AppCache.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+=======
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
     "name": "symfony/framework-standard-edition",
     "license": "MIT",
     "type": "project",
@@ -9,6 +30,10 @@
     },
     "autoload-dev": {
         "psr-4": { "Tests\\": "tests/" }
+<<<<<<< HEAD
+=======
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
     },
     "require": {
         "php": ">=5.5.9",
@@ -43,11 +68,20 @@
             "@symfony-scripts"
         ]
     },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
     "config": {
         "platform": {
             "php": "5.5.9"
         }
     },
+<<<<<<< HEAD
+=======
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
     "extra": {
         "symfony-app-dir": "app",
         "symfony-bin-dir": "bin",
@@ -57,9 +91,18 @@
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
+<<<<<<< HEAD
         },
         "branch-alias": {
             "dev-master": "3.1-dev"
+=======
+<<<<<<< HEAD
+=======
+        },
+        "branch-alias": {
+            "dev-master": "3.1-dev"
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
         }
     }
 }

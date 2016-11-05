@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+social-project
+==============
+
+A Symfony project created on September 11, 2016, 11:49 am.
+=======
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
 Symfony Standard Edition
 ========================
 
@@ -67,3 +76,9 @@ Enjoy!
 [11]: https://symfony.com/doc/3.0/cookbook/logging/monolog.html
 [13]: https://symfony.com/doc/3.0/bundles/SensioGeneratorBundle/index.html
  # social-network
+<<<<<<< HEAD
+=======
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+# social-network
+# social-project
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28

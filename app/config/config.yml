@@ -2,7 +2,14 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+<<<<<<< HEAD
     - { resource: "@GuiCorpFrontBundle/Resources/config/services.yml" }
+=======
+<<<<<<< HEAD
+=======
+    - { resource: "@GuiCorpFrontBundle/Resources/config/services.yml" }
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration

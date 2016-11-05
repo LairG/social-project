@@ -1,7 +1,16 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
 gui_corp_front:
     resource: "@GuiCorpFrontBundle/Resources/config/routing.yml"
     prefix:   /
 
+<<<<<<< HEAD
+=======
+>>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
+>>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
