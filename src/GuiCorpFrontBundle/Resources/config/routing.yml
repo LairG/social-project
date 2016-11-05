@@ -1,8 +1,3 @@
 gui_corp_front_homepage:
-<<<<<<< HEAD
     path:     /{name}
     defaults: { _controller: GuiCorpFrontBundle:Static:homepage }
-=======
-    path:     /
-    defaults: { _controller: GuiCorpFrontBundle:Default:index }
->>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28

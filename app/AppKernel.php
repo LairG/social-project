@@ -16,14 +16,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
-<<<<<<< HEAD
             new GuiCorpFrontBundle\GuiCorpFrontBundle(),
-=======
-<<<<<<< HEAD
-=======
-            new GuiCorpFrontBundle\GuiCorpFrontBundle(),
->>>>>>> 48b2e81649220d3196ff7279fa467055e30b5808
->>>>>>> 64a00a39af52c1f45cbf8081933e1c4af1d1ca28
+
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
