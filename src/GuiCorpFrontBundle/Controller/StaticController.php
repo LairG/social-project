@@ -2,13 +2,14 @@
 namespace GuiCorpFrontBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Response;
+#use Symfony\Component\HttpFoundation\Response;
 
 class StaticController extends Controller
 {
-    public function homepageAction($name)
+    public function homepageAction()
     {
-        $response = new Response(sprintf("Hello %s !", $name), 200,array('content-type'=> 'text/html'));
-        return $response;
+       return $this->render(
+               'GuiCorpFrontBundle:Static:homepage.html.twig'
+               );
     }
 }
