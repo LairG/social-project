@@ -1,0 +1,7 @@
+gui_corp_front:
+    resource: "@GuiCorpFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
